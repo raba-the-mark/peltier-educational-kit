@@ -25,14 +25,14 @@ The Peltier cell is housed in a 3D-printed case. Inside the case, in addition to
     </td>
     <td width="50%">
       <p>
-        The controller is implemented on a computer using MATLAB/Simulink.
-        Through a Bluetooth serial communication, the control signal is sent to
-        the interface circuit, which manages the sensors and actuators connected
-        to the Peltier cell.
+        The computer hosts the controller implemented in MATLAB/Simulink.
+        Communication with the hardware interface is achieved via Bluetooth
+        serial communication, which manages the sensors and actuators.
       </p>
     </td>
   </tr>
 </table>
+
 
 
 
