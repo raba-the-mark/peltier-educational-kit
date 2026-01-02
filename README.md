@@ -21,7 +21,7 @@ The Peltier cell is housed in a 3D-printed case. Inside the case, in addition to
 <table>
   <tr>
     <td width="50%">
-      <img src="images/block_diagram1.jpg" alt="Control architecture" width="100%">
+      <img src="images/3D exploded.jpg" alt="3D exploded" width="100%">
     </td>
     <td width="50%">
       <p>
