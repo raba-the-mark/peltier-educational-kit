@@ -7,3 +7,6 @@ This folder contains all the hardware-related files of the Peltier kit, includin
 - **BOM** (`bom/`): Bill of Materials listing all components required to build the interface circuit.
 
 The hardware has been designed to be simple, low-cost, and easily reproducible for educational purposes.
+
+## PCB
+In the imges below the PCB layer are shown:
