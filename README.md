@@ -7,8 +7,7 @@ It serves as a practical platform for studying temperature regulation, testing c
 
 
 ## Overview
-The kit consists of two main components: the interface circuit and the Peltier cell (process).
-The image below shows the operating principle of the kit:
+The kit consists of two main components: the interface circuit and the Peltier cell (process). The image below shows the operating principle of the kit:
 
 <img src="images/block%20diagram2.jpg" alt="Kit principle" width="500">
 
