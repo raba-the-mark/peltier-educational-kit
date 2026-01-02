@@ -36,7 +36,7 @@ The image below shows the exploded 3D assembly in which all the components can b
 
 The purpose of the circuit is to interface sensors and actuators with a personal computer through serial wireless communication based on Bluetooth connectivity. We have chosen to use wireless communication between the PC and the circuit in order to protect the PC in case of a circuit failure, such as a short circuit. In addition, wireless communication is more user-friendly as it allows the user to achieve the same performance of a wired connection with more flexibility. The circuit is powered by 12V DC supply obtained from a standard power adapter. The working principle of the interface circuit, which is managed by an Arduino Nano, is shown in Figure below:
 
-<img src="images/block diagram3.jpg" alt="3D exploded" width="500">
+<img src="images/block diagram1.jpg" alt="3D exploded" width="500">
 
 
 ## License
