@@ -11,7 +11,7 @@ The kit consists of two main components: the interface circuit and the Peltier c
 
 <img src="images/block%20diagram2.jpg" alt="Kit principle" width="500">
 
-The controller is implemented on a computer using MATLAB/Simulink. It communicates with the hardware interface circuit via Bluetooth serial communication, which handles all sensors and actuators connected to the Peltier cell.
+The computer hosts the controller implemented in MATLAB/Simulink. Communication with the hardware interface is achieved via Bluetooth serial communication, which manages the sensors and actuators.
 
 
 
