@@ -1,5 +1,6 @@
 ## Bill of Materials – Version v0.1
 
+These components are intended for the PCB assembly:
 
 | PCB reference      | Component            | Value / Part Number    | Qty | Notes                                     |
 |-------:            |----------------------|------------------------|-----|-------------------------------------------|
@@ -15,18 +16,22 @@
 | K1                 | Relay                | RTE24012               | 1   | H-Bridge for Heating/Cooling inversion    |
 | U1                 | Microcontroller      | ATmega328P             | 1   | Arduino Nano                              |
 | U3                 | Button               | 5.8 × 5.8 mm DIP 6-pin | 1   | Button for USB programming                |
-
-| U4                 | Voltage Regulator    | LM7805              | 1   | 5V regulator                              |
-
-| HC-05              | Bluetooth module     | HC-05               | 1   | Bluetooth module for serial connection    |
-
-
+| U4                 | Voltage Regulator    | LM7805                 | 1   | 5V regulator                              |
+| HC-05              | Bluetooth module     | HC-05                  | 1   | Bluetooth module for serial connection    |
+| Connector          | Connector            | KF301-5.0-3P           | 2   | Connector for LM35 and DS18B20 wiring     |
+| Connector          | Connector            | KF301-5.0-2P           | 5   | Connector for other wiring                |
 
 
-| RefDes | Component            | Value / Part Number | Package | Qty | Notes |
-|-------:|----------------------|---------------------|---------|-----|-------|
-| R1     | Resistor             | 10 Ω                | 1206    | 1   | Power resistor |
-| R2     | Resistor             | 10 kΩ               | 0603    | 2   | Pull-up |
-| C1     | Capacitor            | 100 nF              | 0603    | 2   | Decoupling |
-| U1     | Microcontroller      | ATmega328P          | TQFP-32 | 1   | Arduino-compatible |
-| Q1     | N-MOSFET             | IRLZ44N             | TO-220 | 1   | Peltier driver |
+These components are required to build the Peltier educational kit and are mounted inside the 3D-printed case.
+
+| Component            | Value / Part Number    | Qty | Notes                                     |
+|----------------------|------------------------|-----|-------------------------------------------|
+| Peltier cell         | TEC1-12705             | 1   | Actuator                                  |
+| Temperature sensor   | LM35                   | 1   | Analog sensor                             |
+| Temperature sensor   | DS18B20                | 1   | Digital sensor                            |
+| FAN                  | DC 5010                | 2   | Cooling and disturbance FANs 50x50x10mm   |
+| Heatsink             | 40x40x11mm             | 1   | Cooling heatsink                          |
+| Power resistor       | 10 Ω 5W                | 1   | Disturbance resistor                      |
+
+
+
