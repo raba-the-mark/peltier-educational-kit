@@ -61,7 +61,7 @@ The repository is organized as follows:
 - `docs/` → Documentation, assembly instructions, and experiments (coming soon...)
 - `images/` → Images and figures
 - `hardware/` → Schematics and PCB files 
-- `firmware/` → Microcontroller firmware
+- `firmware/` → Microcontroller firmware (coming soon...) 
 - `software/` → MATLAB scripts and functions (coming soon...) 
 - `LICENSE` → Licensing information
 
